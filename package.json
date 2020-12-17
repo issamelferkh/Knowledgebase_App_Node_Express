@@ -1,0 +1,30 @@
+{
+  "name": "knowledgebase_app_node_express",
+  "version": "1.0.0",
+  "description": "This is a knowledgebase app used in the \"Node.js & Express From Scratch\"",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/issamelferkh/Knowledgebase_App_Node_Express.git"
+  },
+  "author": "Issam EL FERKH",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/issamelferkh/Knowledgebase_App_Node_Express/issues"
+  },
+  "homepage": "https://github.com/issamelferkh/Knowledgebase_App_Node_Express#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.8",
+    "pub": "^0.2.0",
+    "pug": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
